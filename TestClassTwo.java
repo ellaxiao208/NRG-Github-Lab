@@ -7,4 +7,12 @@ public class TestClassTwo {
         this.age = x;
         this.iq = y;
     }
+    public String IQTest(int iq) {
+        if (iq > 100){
+            return "This person has a high IQ.";
+        }
+        else{
+            return "This person is dumb.";
+        }
+    }
 }
