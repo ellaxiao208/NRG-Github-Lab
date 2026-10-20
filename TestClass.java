@@ -5,12 +5,15 @@ public class TestClass {
         this.number1 = x;
         this.number1 = y;
     }
+    /** Adds number1 and number2 together */
     public double Addition() {
         return number1 + number2;
     }
+    /** Subtracts number2 from number1 */
     public double Subtraction() {
         return number1 - number2;
     }
+    /** Multiplies number1 and number2 */
     public double Multipication() {
         return number1 * number2;
     }
