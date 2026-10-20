@@ -11,4 +11,7 @@ public class TestClass {
     public double Subtraction() {
         return number1 - number2;
     }
+    public double Multipication() {
+        return number1 * number2;
+    }
 }
